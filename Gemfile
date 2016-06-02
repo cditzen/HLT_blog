@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap-sass', '~> 3.3.6'
 # Better system of authentication
 gem 'devise'
 # Allows for pages to be paginated
