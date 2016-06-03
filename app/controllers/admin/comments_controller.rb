@@ -2,7 +2,6 @@ class Admin::CommentsController < ApplicationController
 
   # http_basic_authenticate_with name: "dhh", password: "lol", only: [:destroy, :index]
 
-  before_action :authenticate_member!
 
   def index
     # @comments = Comment.all
